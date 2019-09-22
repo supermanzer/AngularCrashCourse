@@ -36,10 +36,15 @@ header {
       display: flex;
       li a {
         padding: 1em;
+
         &:hover {
           background: darken($primary, 10%);
         }
       }
     }
   }
+}
+
+h1 {
+  margin-top: 2em;
 }
